@@ -30,3 +30,6 @@ Streamlit is an open source app framework in Python language. It helps us create
 
 You can run this python file wiht the command as "streamlit run MultipleDisease.py"  ,  then you will be directed to the localhost webpage where you can test the Predictive System.
 
+![disease](https://user-images.githubusercontent.com/97254178/213727019-a016ce20-9e41-4fea-9029-605134db9034.png)
+
+
