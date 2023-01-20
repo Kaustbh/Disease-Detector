@@ -5,9 +5,9 @@ import tensorflow as tf
 from tensorflow import keras
 import numpy as np
 
-diabetes=pickle.load(open('D:/Visual Studio Python/Project/MultipleDisease Prediction/diabetes_model.sav','rb'))
-parkinson=pickle.load(open('D:/Visual Studio Python/Project/MultipleDisease Prediction/Parkinson_model.sav','rb'))
-Breast=tf.keras.models.load_model('BreastCancer_model.h5' )
+diabetes=pickle.load(open('D:/Visual Studio Python/Project/MultipleDisease Prediction/MutilpleDisease Prediction/diabetes_model.sav','rb'))
+parkinson=pickle.load(open('D:/Visual Studio Python/Project/MultipleDisease Prediction/MutilpleDisease Prediction/Parkinson_model.sav','rb'))
+Breast=tf.keras.models.load_model('D:/Visual Studio Python/Project/MultipleDisease Prediction/MutilpleDisease Prediction/BreastCancer_model.h5' )
 #Breast=pickle.load(open('D:/Visual Studio Python/Project/MultipleDisease Prediction/model.pkl','rb'))
 
 # sidebar for navigation
