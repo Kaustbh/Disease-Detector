@@ -1,12 +1,32 @@
 # Disease-Detector
 
-In this project , I have made taken 3 diseases 1. Breast Cancer 2. Parkinsons Diseases 3. Diabetes datasets and trained them individually ,then saved the models 
-and combined them in single file , and made Predictive System. I used Streamlit to the GUI interface of the Project.
 
-## Requirements 
+## About
+Predicting whether you have the disease, based on the input features provided.
+The Diseases Predicted are :
 
-Install all the libraries used in the project using running the command 'pip install "library name" ' .
+1. Breast Cancer ( Based on the input ,it predicts whether the paitient has "Malignant" tumor or "Benign" tumor)
 
-## Discription
+2. Parkinson Disease
 
-First Train and save the models of all the three Diseases and then open the "MultipleDisease.py" , keep all the 3 models of 
+3. Diabetes
+
+## Requirements :
+
+ Install all the dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+## Discription :
+
+First I have trained all the Diseases Separetly , and saved their models. Then I imported this 3 models in "MultipleDisease.py" 
+and made the GUI of the Predictive System using Streamlit .
+
+What can Streamlit do?
+
+Streamlit is an open source app framework in Python language. It helps us create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc.
+
+You can run this python file wiht the command as "streamlit run MultipleDisease.py"  ,  then you will be directed to the localhost webpage where you can test the Predictive System.
+
